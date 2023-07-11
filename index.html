@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>👉 好好学习</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://down.jello.top/down/https://gcore.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    /> -->
+    <!-- Theme: Simple -->
+    <link
+      rel="stylesheet"
+      href="//unpkg.com/docsify-themeable@0/dist/css/theme-simple.css"
+    />
+  </head>
+  <style>
+    .chat-panel .main-area .chat-message .message-box {
+      max-width: 80% !important;
+    }
+    /* 聊天记录里面的图片 */
+    .chat-panel .message img {
+      max-width: 100px;
+    }
+  </style>
+
+  <body>
+    <!-- <nav>
+      <a href="#/">EN</a>
+      <a href="#/zh-cn/">中文</a>
+    </nav> -->
+    <div id="app"></div>
+  </body>
+  <script>
+    var sid = jQuery("#sidTitle").attr("title");
+    jQuery("#SOHUCS").attr("sid", sid);
+  </script>
+  <script>
+    window.$docsify = {
+      name: "<a href='/'>👋查漏补缺</a>", // 网站名称和仓库
+      nameLink: "/", // 点击文档标题后跳转的链接地址。
+      // repo: "https://xiaolongmr.github.io/",
+      // repo: "xiaolongmr/dh",
+      relativePath: false, // 启用相对路径
+      // 搜索功能
+      search: {
+        paths: "auto",
+        placeholder: "搜索一下知识",
+        noData: "找不到结果",
+        depth: 6,
+      },
+      loadNavbar: true, // 通过md配置导航
+      // 侧边栏
+      loadSidebar: true,
+      // 显示目录
+      subMaxLevel: 2,
+      // 嵌套的侧边栏
+      alias: {
+        "/.*/_sidebar.md": "/_sidebar.md",
+      },
+      // 封面
+      coverpage: false,
+      // 切换页面后是否自动跳转到页面顶部。
+      auto2top: true,
+      // 加载其他地方的资源
+      // basePath: "https://raw.githubusercontent.com/xiaolongmr/dh/main/",
+      // 主题色
+      themeColor: "#fa7094",
+      // 小屏设备下合并导航栏到侧边栏。
+      mergeNavbar: false,
+      //  找不到页面加载404
+      notFoundPage: {
+        "/": "_404.md",
+        "/hello": "_404.md",
+      },
+      //  上一章下一章
+      pagination: {
+        previousText: "上一章节",
+        // or
+        nextText: {
+          "/en/": "NEXT",
+          "/": "下一章节",
+        },
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      // 页脚增强
+      footer: {
+        copy: "<span>© 2023. </span>",
+        auth: "学习改变命运",
+        pre: "<hr/>",
+        style: "text-align: center;",
+        class: "className",
+      },
+      // 聊天记录
+      chat: {
+        // 聊天标题
+        title: "聊天记录",
+        // 设置头像
+        myself: "myself",
+        users: [
+          {
+            nickname: "小陈",
+            avatar:
+              "https://thirdqq.qlogo.cn/g?b=sdk&k=Bev4kt2qt6ZBMfNLYbGtSw&s=640&t=1657859177",
+          },
+          {
+            nickname: "小张",
+            avatar:
+              "https://thirdqq.qlogo.cn/g?b=sdk&k=yqjbmdENrko19T7mjIc3vg&s=640&t=1655292317",
+          },
+          {},
+        ],
+        // 面板导航栏风格，支持 "mac" 与 "windows"
+        os: "mac",
+      },
+    };
+  </script>
+  <!-- Docsify v4 -->
+  <script src="https://unpkg.com/docsify@4"></script>
+  <!-- 搜索功能 -->
+  <script src="https://unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <!-- 图片缩放 -->
+  <script src="https://unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 代码复制 -->
+  <script src="https://unpkg.com/docsify-copy-code"></script>
+  <!-- Docsify 基本js -->
+  <!-- <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script> -->
+  <!-- 上一章下一章 -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- 离线模式 -->
+  <script>
+    if (typeof navigator.serviceWorker !== "undefined") {
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
+  <!-- 聊天记录 -->
+  <script src="https://unpkg.com/docsify-chat/lib/docsify-chat.min.js"></script>
+  <!-- 页脚增强 -->
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+</html>
