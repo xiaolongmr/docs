@@ -9,9 +9,9 @@ English
 - [🤏 长难句](English/sentences.md)
 - [🙋‍♂️ 阅读](English/read.md)
 
-Politics
+- [📚 政治](Politics/马原.md)
 
-- [✍ 马原](Politics/马原.md)
+<!-- - [✍ 马原](Politics/马原.md)
 - [📚 毛中特](Politics/毛中特.md)
 - [🥰 史纲](Politics/史纲.md)
-- [🙆‍♂️ 思修](Politics/思修.md)
+- [🙆‍♂️ 思修](Politics/思修.md) -->
