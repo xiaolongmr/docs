@@ -1,3 +1,5 @@
+## 第一组
+
 Once upon a time, in a beautiful castle ([ˈkæsəl] n.城堡), there lived a king named Henry. He had a vision ([ˈvɪʒn] n.愿景) of creating an informal ([ɪnˈfɔːrməl] adj.非正式的) garden. The outcome ([ˈaʊtkʌm] n.结果) of his efforts was a breathtaking sight. Visitors admired the fancy ([ˈfænsi] adj.华丽的) flowers and a wreath ([riθ] n.花环) adorned the entrance.
 
 One day, the king decided to replace ([rɪˈpleɪs] v.替代) the old railway ([ˈreɪlweɪ] n.铁路) near the castle with a more efficient one. He selected ([sɪˈlekt] v.选择) engineers to negotiate ([nɪˈɡoʊʃieɪt] v.商谈) the project terms. They presented evidence ([ˈɛvɪdəns] n.证据) of the benefits it would bring. The king admitted ([ədˈmɪt] v.承认) the necessity and offered a bonus ([ˈboʊnəs] n.奖金) to the team.

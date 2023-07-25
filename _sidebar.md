@@ -2,12 +2,12 @@
 
 <!-- - [👉 README]() -->
 
-English
+- English
 
-- [🌱 单词](English/word.md "看我")
-- [🚀 语法](English/grammar.md)
-- [🤏 长难句](English/sentences.md)
-- [🙋‍♂️ 阅读](English/read.md)
+  - [🌱 单词](English/word.md "看我")
+  - [🚀 语法](English/grammar.md)
+  - [🤏 长难句](English/sentences.md)
+  - [🙋‍♂️ 阅读](English/read.md)
 
 - [📚 政治](Politics/马原.md)
 
